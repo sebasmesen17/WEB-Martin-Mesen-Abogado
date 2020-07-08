@@ -1,0 +1,18 @@
+.nav{
+    &__list {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+    }
+    &__link {
+        color: #fff;
+        width: 90px;
+        height: 40px;
+        font-size: 18px;
+        margin-right: 40px;
+        text-decoration: none;
+        &:hover {
+            color: #fff;
+        }
+    }
+}

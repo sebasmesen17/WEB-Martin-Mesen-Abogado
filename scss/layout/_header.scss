@@ -1,0 +1,24 @@
+.header {
+    width: 100%;
+    height: 419px;
+    background: url('../img/bg1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-height: 419px;
+
+    &__menu {
+        width: 100%;
+        height: 136px;
+        background: rgba(112, 107, 107, 0.73);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.logocontainer {
+    margin: 10px;
+}
+
